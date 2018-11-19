@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOG IN</title>
+	<link href="SIGNUP.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+	<div class="login-page">
+	<div class="form">
+		<form class="register-form">
+		<input type="text" placeholder="username"/>
+		<input type="text" placeholder="password"/>
+		<input type="text" placeholder="email"/>
+		<input type="text" placeholder="location"/>
+		<input type="text" placeholder="zip code"/>
+		<button>Create</button>
+		<p class="message">Already Registered? <a href="#">Login</a>
+		</p>
+	</form>
+
+	<form class="login-form">
+	<input type="text" placeholder="username"/>
+	<input type="text" placeholder="password"/>
+	<button>login</button>
+	<p class="message">Not Registered? <a href="#">Register</a></p>
+		
+	</form>
+		
+	</div>	
+	</div>
+
+	<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+
+	<script>
+	$('.message a').click(function(){
+	$('form').animate({height: "toggle", opacity: "togggle"}, "slow");
+	});
+
+</script>
+
+</body>
+
+<button><a href="file:///C:/Users/Arwin/Desktop/ALTERNATIVE/receipt.html">HOME<a/></button>
+</html>
